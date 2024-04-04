@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(110, 109, 109);
+    background-image: url(../imagens/fundoExer.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 30px;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+header a {
+    color: rgb(99, 39, 39);
+    text-decoration: none;
+    padding: 13px;
+}
+
+header a:hover {
+    background-color: rgb(146, 145, 144);
+    transition-duration: .4s;
+}
+
+header > #login {
+    color: rgb(231, 222, 222);
+    background-color: rgb(245, 73, 73);
+}
+
+header > #login:hover {
+    color: black;
+    background-color: rgb(250, 124, 124);
+    transition-duration: .4s;
+    border-radius: none;
+}
+
+header > #home {
+    color: rgb(245, 53, 53);
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.692);
+    width: 60vw;
+    margin: auto;
+}
+
+main h1 {
+    padding: 17px;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.350);
+}
+
+main h2 {
+    text-align: center;
+    color: rgba(116, 33, 27, 0.712);
+
+    padding: 10px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.350);
+}
+
+main ul {
+    list-style-type: none;
+}
+
+main > ul > li {
+    padding: 15px;
+    text-align: center;
+}
+
+main > ul > li > a { 
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(70, 67, 67, 0.76);
+}
+
+main > ul > li > a:hover { 
+    background-color: rgba(34, 33, 33, 0.76);
+}

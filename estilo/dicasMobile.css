@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 280px) and (max-width: 750px) {
+
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box; /* Garantindo que o padding e a borda não aumentem a largura dos elementos */
+    }
+    
+    body {
+        background-color: rgb(53, 52, 52);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Arial, sans-serif; /* Adicionando uma fonte padrão */
+    }
+    
+    header {
+        padding: 15px;
+        text-align: center; /* Centralizando o texto */
+        font-size: 1rem; /* Reduzindo o tamanho da fonte */
+        font-weight: bold;
+    }
+    
+    header a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        display: block; /* Transformando os links em blocos para ocuparem a largura total */
+        margin-bottom: 10px; /* Adicionando espaçamento entre os links */
+    }
+    
+    header a:hover {
+        background-color: rgb(121, 119, 119);
+        transition-duration: .4s;
+    }
+    
+    section {
+        background-image: url(../imagens/dicasFundo.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10px;
+        width: 80%; /* Reduzindo a largura da seção para dispositivos móveis */
+        margin: auto; /* Centralizando a seção */
+        border-radius: 10px;
+    }
+    
+    section h1 {
+        color: rgba(255, 255, 255, 0.849);
+        padding: 15px;
+        border-bottom: 1px solid white; /* Reduzindo a espessura da borda */
+        text-align: center;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+        font-size: 1.5rem; /* Reduzindo o tamanho da fonte */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    section h2 {
+        background-color: rgba(228, 14, 14, 0.205);
+        color: rgb(31, 149, 245);
+        padding: 10px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+        font-size: 1.2rem; /* Reduzindo o tamanho da fonte */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    section p {
+        color: white;
+        padding: 10px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+        font-size: 1rem; /* Reduzindo o tamanho da fonte */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
