@@ -5,6 +5,9 @@
     margin: 0px;
 }
 
+body {
+    overflow-x: hidden; 
+}
 
 nav ul li {
     display: inline-block;
@@ -198,7 +201,15 @@ footer {
     .mobile-menu {
         display: block;
     }
-      
+
+    #search {
+        display: none;
+    }
+     
+    .search-icon {
+        display: none;
+    }
+
     section {
         margin-top: 50px;
         text-align: center;
@@ -209,13 +220,13 @@ footer {
     
     section h1 {
         text-align: center;
-        font-size: 1.8rem; /* Reduzindo o tamanho do título */
+        font-size: 1.5rem; /* Reduzindo o tamanho do título */
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
     
     section p {
         text-align: center;
-        font-size: 16px; /* Reduzindo o tamanho do texto */
+        font-size: 15px; /* Reduzindo o tamanho do texto */
         line-height: 1.5; /* Aumentando o espaçamento entre as linhas */
         text-align: justify;
         padding: 0 10px;
@@ -227,7 +238,48 @@ footer {
         max-width: 300px; /* Limitando a largura máxima do link */
     }
 
+    section > #um {
+        font-size: 12px;
+        padding: 15px; 
+        letter-spacing: 1px;
+        border-radius: 5px;
+        color: white;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+        background-color: rgb(228, 29, 29);
+        text-decoration: none;
+    }
+        
+    section > #um:hover {
+        color: white;
+        letter-spacing: 3px;
+        background-color: rgb(241, 66, 66);
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+        transition-duration: .4s;
+    }
+        
+    section > #dois {
+        color: white;
+        font-size: 12px;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: black;
+        padding: 15px;
+        border: 2px solid white;
+    }
+        
+    section > #dois:hover {
+        color: white;
+        border-radius: 5px;
+        letter-spacing: 3px;
+        background-color: rgb(43, 42, 42);
+        border: 2px solid white;
+        transition-duration: .4s;
+    }
 }
+
+
 
 .nav-list.active {
     transform: translate(0);
